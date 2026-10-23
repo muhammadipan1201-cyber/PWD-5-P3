@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #020244;
+    color: #333;
+    padding: 20px;
+}
+
+/* Pembungkus Utama */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 2px solid #333;
+    background-color: #ffffff;
+}
+
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    border-bottom: 2px solid #333;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6f0f12;
+    padding: 15px 25px;
+    border-bottom: 2px solid #333;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.menu a:hover {
+    background-color: #2980b9;
+}
+
+
+section {
+    display: grid;
+    grid-template-columns: 2fr 1fr; 
+    gap: 20px;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-bottom: 2px solid #333;
+}
+
+
+article {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+}
+
+
+aside {
+    background-color: #e8f8f5;
+    padding: 20px;
+    border: 1px solid #a3e4d7;
+    border-radius: 5px;
+}
+
+
+footer {
+    background-color: #650518;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table, th, td {
+    border: 1px solid #5d0e82;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #000000;
+    color: white;
+}
+
+.link-list {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.link-list a {
+    color: #000000;
+}
+
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #1fcccc;
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+.btn-submit {
+    background-color: #630505;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn-submit:hover {
+    background-color: #871218;
+}
